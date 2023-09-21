@@ -9548,6 +9548,10 @@ figcaption {
 }
 
 @media screen and (max-width: 767px) {
+  .footer-wrapper {
+    max-height: unset;
+  }
+
   h1 {
     font-size: 2.5rem;
   }
