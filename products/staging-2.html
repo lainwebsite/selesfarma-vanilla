@@ -199,20 +199,20 @@
 									<h5 class="heading heading-xsmall text-weight-bold">Filter</h5>
 									<div class="w-form" style="display: flex; flex-direction: column; gap: 6px;">
 										<label class="w-checkbox flex valign-center margin-0">
-											<input type="checkbox" id="checkbox-patent" class="w-checkbox-input checkbox" checked="true">
-											<span class="text-size-small w-form-label" for="checkbox-patent">Patent</span>
+											<input type="checkbox" id="checkbox-umum" class="w-checkbox-input checkbox" checked="true">
+											<span class="text-size-small w-form-label" for="checkbox-umum">Obat Umum (Bebas)</span>
 										</label>
 										<label class="w-checkbox flex valign-center margin-0">
-											<input type="checkbox" id="checkbox-generic" class="w-checkbox-input checkbox" checked="true">
-											<span class="text-size-small w-form-label" for="checkbox-generic">Generic</span>
+											<input type="checkbox" id="checkbox-keras" class="w-checkbox-input checkbox">
+											<span class="text-size-small w-form-label" for="checkbox-keras">Obat Keras</span>
 										</label>
 										<label class="w-checkbox flex valign-center margin-0">
-											<input type="checkbox" id="checkbox-supplement" class="w-checkbox-input checkbox" checked="true">
-											<span class="text-size-small w-form-label" for="checkbox-supplement">Supplement</span>
+											<input type="checkbox" id="checkbox-terbatas" class="w-checkbox-input checkbox" checked="true">
+											<span class="text-size-small w-form-label" for="checkbox-terbatas">Obat Terbatas</span>
 										</label>
 										<label class="w-checkbox flex valign-center margin-0">
-											<input type="checkbox" id="checkbox-uncategorized" class="w-checkbox-input checkbox" checked="true">
-											<span class="text-size-small w-form-label" for="checkbox-uncategorized">Uncategorized</span>
+											<input type="checkbox" id="checkbox-suplemen" class="w-checkbox-input checkbox" checked="true">
+											<span class="text-size-small w-form-label" for="checkbox-suplemen">Suplemen Kesehatan</span>
 										</label>
 									</div>
 								</div>
@@ -222,20 +222,22 @@
 
 							</div>
 							<script type="text/javascript">
-								let medList = ["Seles Farma Allopurinol 100 Uncategorized.webp", "Seles Farma Allopurinol 300 Uncategorized.webp", "Seles Farma Allopurinol Generic.webp", "Seles Farma Alupurinol 100mg Generic.webp", "Seles Farma Ambroxol Hydrochloride Generic.webp", "Seles Farma Amlodipine Besilate 5mg Generic.webp", "Seles Farma Amlodipine Besilate 10mg Generic.webp", "Seles Farma Amosterra Patent.webp", "Seles Farma Amosterra Uncategorized.webp", "Seles Farma Amoxicillin Trihydrate Generic.webp", "Seles Farma Amoxillin Trihydrate Uncategorized.webp", "Seles Farma Ampisterra Uncategorized.webp", "Seles Farma Amplodipine Besilate 5 Uncategorized.webp", "Seles Farma Amplodipine Besilate 10 Uncategorized.webp", "Seles Farma Antasida Doen Generic.webp", "Seles Farma Apicillin Trihydrate Uncategorized.webp", "Seles Farma Bio-Mom Kapsul Supplement.webp", "Seles Farma Bio-Mom Lacta Uncategorized.webp", "Seles Farma Bio-Mom Nipple Cream Supplement.webp", "Seles Farma Bio-Mom Rash Cream Supplement.webp", "Seles Farma Bio-Mom Stretch Mark Cream Supplement.webp", "Seles Farma Calcium Lactate Supplement.webp", "Seles Farma Cefadroxil Monohydrate Uncategorized.webp", "Seles Farma Cetirizine Hydrochloride Uncategorized.webp", "Seles Farma Cetriz Cetirizine HCL Uncategorized.webp", "Seles Farma Chloramphenicol Generic.webp", "Seles Farma Cimetidine Generic.webp", "Seles Farma Cotrimoksazole Generic.webp", "Seles Farma Daily Farma Uncategorized.webp", "Seles Farma Dexamethasone Generic.webp", "Seles Farma Dexamethasone Uncategorized.webp", "Seles Farma Domikado Patent.webp", "Seles Farma Domperidone Maleate Generic.webp", "Seles Farma Droxzilla Uncategorized.webp", "Seles Farma Guaifenesin Generic.webp", "Seles Farma Ilphil 500 Mefenamic Acid Patent.webp", "Seles Farma Mefenamic Acid Generic.webp", "Seles Farma Metamizole Sodium Generic.webp", "Seles Farma Metamizole Sodium Monohydrate Uncategorized.webp", "Seles Farma Methylprednisolone 4mg Generic.webp", "Seles Farma Methylprednisolone 8mg Generic.webp", "Seles Farma Methylprednisolone 16mg Generic.webp", "Seles Farma Metronidazole Generic.webp", "Seles Farma Metronidazole Uncategorized.webp", "Seles Farma Metty 4 Patent.webp", "Seles Farma Metty 8 Patent.webp", "Seles Farma Metty 16 Patent.webp", "Seles Farma Paracetamol 500mg Generic.webp", "Seles Farma Paracetamol Uncategorized.webp", "Seles Farma Piroxicam 20 Generic.webp", "Seles Farma Prednisone Generic.webp", "Seles Farma Provinas 200 Patent.webp", "Seles Farma Provinas 400 Patent.webp", "Seles Farma Raniphil 150 Patent.webp", "Seles Farma Ranitidine Hydrochloride Generic.webp", "Seles Farma Ranitidine Hydrochloride Uncategorized.webp", "Seles Farma Selebrox Patent.webp", "Seles Farma Selediar Kaplet Uncategorized.webp", "Seles Farma Selediar Patent.webp", "Seles Farma Seledryl Patent.webp", "Seles Farma Seles B6 Supplement.webp", "Seles Farma Seles C Supplement.webp", "Seles Farma Selesbion Plus Calcium Supplement.webp", "Seles Farma Selesbion Supplement.webp", "Seles Farma Selescardio 5 Patent.webp", "Seles Farma Selescardio 5 Uncategorized.webp", "Seles Farma Selescardio 10 Patent.webp", "Seles Farma Selesgin Patent.webp", "Seles Farma Selesiklin 500 Patent.webp", "Seles Farma Seleskol 250 Patent.webp", "Seles Farma Selesmag Patent.webp", "Seles Farma Selesmol Forte Patent.webp", "Seles Farma Selesmol Forte Uncategorized.webp", "Seles Farma Selesmol Paracetamol Patent.webp", "Seles Farma Selesmol Uncategorized.webp", "Seles Farma Selesnizol 500 Patent.webp", "Seles Farma Selesnizol 500 Uncategorized.webp", "Seles Farma Selespurin 300 Patent.webp", "Seles Farma Selespurin Patent.webp", "Seles Farma Selestidin 200 Patent.webp", "Seles Farma Selestidin 200 Uncategorized.webp", "Seles Farma Selestrim Patent.webp", "Seles Farma Selexon Patent.webp", "Seles Farma Selexon Uncategorized.webp", "Seles Farma Selferro Supplement.webp", "Seles Farma Selfolic Supplement.webp", "Seles Farma Selkom C DT Uncategorized.webp", "Seles Farma Selkom D3 1000 Uncategorized.webp", "Seles Farma Selkom-C Gold Supplement.webp", "Seles Farma Selkom-C Kapsul Supplement.webp", "Seles Farma Selmatic Patent.webp", "Seles Farma Selmetor Patent.webp", "Seles Farma Selmetor-1 Patent.webp", "Seles Farma Selproceta Patent.webp", "Seles Farma Selpyron Patent.webp", "Seles Farma Selthiacol Patent.webp", "Seles Farma Selviplex Supplement.webp", "Seles Farma Tablet Tambah Darah Uncategorized.webp", "Seles Farma Tetracycline Hydrochloride Generic.webp", "Seles Farma Thiamphenicol Generic.webp", "Seles Farma Vitacaps Supplement.webp", "Seles Farma Vitamin B Supplement.webp", "Seles Farma Vitamin B1 Supplement.webp", "Seles Farma Vitamin C Supplement.webp"];
+								let medList = ["Seles Farma_Selkom C DT_Suplemen-Kesehatan.webp","Seles Farma_Allopurinol 100_Obat-Keras.webp","Seles Farma_Allopurinol 300_Obat-Keras.webp","Seles Farma_Ambroxol HCl_Obat-Keras.webp","Seles Farma_Amlodipine Besilate 5_Obat-Keras.webp","Seles Farma_Amosterra Sirup Kering_Obat-Keras.webp","Seles Farma_Amosterra_Obat-Keras.webp","Seles Farma_Amoxicilline Trihydrate 250_Obat-Keras.webp","Seles Farma_Amoxicilline Trihydrate_Obat-Keras.webp","Seles Farma_Amoxillin Trihydrate_Obat-Keras.webp","Seles Farma_Ampicillin Trihydrate_Obat-Keras.webp","Seles Farma_Ampisterra_Obat-Keras.webp","Seles Farma_Amplodipine Besilate 10_Obat-Keras.webp","Seles Farma_Antasida Doen_Obat-Umum.webp","Seles Farma_B6 10_Suplemen-Kesehatan.webp","Seles Farma_Biomom_Suplemen-Kesehatan.webp","Seles Farma_Calcium Lactate_Suplemen-Kesehatan.webp","Seles Farma_Cefadroxil_Obat-Keras.webp","Seles Farma_Cetirizine Hydrochloride_Obat-Terbatas.webp","Seles Farma_Cetriz_Obat-Terbatas.webp","Seles Farma_Chloramphenicol_Obat-Keras.webp","Seles Farma_Cimetidine_Obat-Keras.webp","Seles Farma_Cotrimoksazole_Obat-Keras.webp","Seles Farma_Dailyfarma C+E_Suplemen-Kesehatan.webp","Seles Farma_Dexamethasone_Obat-Keras.webp","Seles Farma_Domikado_Obat-Keras.webp","Seles Farma_Domperidone Maleate_Obat-Keras.webp","Seles Farma_Droxzilla_Obat-Keras.webp","Seles Farma_Guaifenesin_Obat-Terbatas.webp","Seles Farma_Ilphil_Obat-Keras.webp","Seles Farma_Mefenamic Acid_Obat-Keras.webp","Seles Farma_Metamizole Sodium_Obat-Keras.webp","Seles Farma_Methylprednisolone 4_Obat-Keras.webp","Seles Farma_Methylprednisolone 8_Obat-Keras.webp","Seles Farma_Methylprednisolone 16_Obat-Keras.webp","Seles Farma_Metronidazole 500_Obat-Keras.webp","Seles Farma_Metty 4_Obat-Keras.webp","Seles Farma_Metty 8_Obat-Keras.webp","Seles Farma_Metty 16_Obat-Keras.webp","Seles Farma_Paracetamol_Obat-Umum.webp","Seles Farma_Piroxicam_Obat-Keras.webp","Seles Farma_Prednisone_Obat-Keras.webp","Seles Farma_Provinas 200_Obat-Terbatas.webp","Seles Farma_Provinas 400_Obat-Keras.webp","Seles Farma_Raniphil_Obat-Keras.webp","Seles Farma_Ranitidine Hydrochloride_Obat-Keras.webp","Seles Farma_Sel - C_Suplemen-Kesehatan.webp","Seles Farma_Selebrox_Obat-Keras.webp","Seles Farma_Selediar Kaplet_Obat-Umum.webp","Seles Farma_Seledoxyn_Suplemen-Kesehatan.webp","Seles Farma_Seledryl_Obat-Terbatas.webp","Seles Farma_Seles B1 100_Suplemen-Kesehatan.webp","Seles Farma_Seles B12 10_Suplemen-Kesehatan.webp","Seles Farma_Seles C50_Suplemen-Kesehatan.webp","Seles Farma_Selesbion Plus Calcium_Suplemen-Kesehatan.webp","Seles Farma_Selesbion_Suplemen-Kesehatan.webp","Seles Farma_Selescardio 5_Obat-Keras.webp","Seles Farma_Selescardio 10_Obat-Keras.webp","Seles Farma_Selesgin_Obat-Keras.webp","Seles Farma_Selesiklin 500_Obat-Keras.webp","Seles Farma_Seleskol 250_Obat-Keras.webp","Seles Farma_Selesmol Forte_Obat-Umum.webp","Seles Farma_Selesmol_Obat-Umum.webp","Seles Farma_Selesnizol 500_Obat-Keras.webp","Seles Farma_Selespurin 100_Obat-Keras.webp","Seles Farma_Selespurin 300_Obat-Keras.webp","Seles Farma_Selestidin 200_Obat-Keras.webp","Seles Farma_Selestrim_Obat-Keras.webp","Seles Farma_Selexon_Obat-Keras.webp","Seles Farma_Selferro_Suplemen-Kesehatan.webp","Seles Farma_Selfolic_Suplemen-Kesehatan.webp","Seles Farma_Selkom C DT Botol_Suplemen-Kesehatan.webp","Seles Farma_Selkom D3 1000 Botol_Suplemen-Kesehatan.webp","Seles Farma_Selkom D3 1000_Suplemen-Kesehatan.webp","Seles Farma_Selkom-C Gold_Suplemen-Kesehatan.webp","Seles Farma_Selkom-C Kapsul_Suplemen-Kesehatan.webp","Seles Farma_Selmatic_Obat-Keras.webp","Seles Farma_Selmetor_Obat-Keras.webp","Seles Farma_Selmetor-botol_Obat-Keras.webp","Seles Farma_Selpyron_Obat-Keras.webp","Seles Farma_Selthiacol_Obat-Keras.webp","Seles Farma_Selviplex_Suplemen-Kesehatan.webp","Seles Farma_Tablet Tambah Darah_Obat-Umum.webp","Seles Farma_Tetracycline Hydrochloride Generic_Obat-Keras.webp","Seles Farma_Thiamphenicol_Obat-Keras.webp","Seles Farma_Vitacaps_Suplemen-Kesehatan.webp","Seles Farma_Vitamin B_Suplemen-Kesehatan.webp","Seles Farma_Vitamin B1 Supplement_Suplemen-Kesehatan.webp","Seles Farma_Vitamin C 25mg Rasa Orange_Suplemen-Kesehatan.webp"];
 								$.each(medList, function (index, fileName) {
-									var filteredMedName = fileName.replace("Seles Farma ", "");
-									let splitName = filteredMedName.split(" ");
-									let categoryName = splitName[splitName.length - 1];
-									filteredMedName = filteredMedName.replace(" " + categoryName, "");
-									categoryName = categoryName.replace(".webp", "");
+									let medData = fileName.replace(".webp", "").split("_");
+
+									let noneFilter = "";
+									if (medData[2].toLocaleLowerCase() == "obat-keras") {
+										noneFilter = "style='display:none;'";
+									}
+
 									$(".product-wrapper").append(`
-										<div data-w-id="e69bb24e-5628-cf63-9e8e-9cb670a3ec09" class="service-column ${categoryName.toLowerCase()}">
+										<div data-w-id="e69bb24e-5628-cf63-9e8e-9cb670a3ec09" class="service-column ${medData[2].toLowerCase()}" ${noneFilter}>
 											<div class="product-image" style="background-image: url('../assets/medicines/${fileName}');"></div>
 											<div class="service-description">
 												<div class="stacked-description no-padding">
-													<h3 style="color:rgb(13,16,20)" class="heading-med-name">${filteredMedName}</h3>
-													<p style="color:rgb(98,113,122)" class="text-med-category">${categoryName}</p>
+													<h3 style="color:rgb(13,16,20)" class="heading-med-name">${medData[1]}</h3>
+													<p style="color:rgb(98,113,122)" class="text-med-category">${medData[2].replace("-", " ")}</p>
 												</div>
 											</div>
 											<div class="button-background card-1"></div>
@@ -380,35 +382,39 @@
 	<script>
 		$(document).ready(function() {
 			// Add a change event listener to the checkbox
-			$('#checkbox-patent').change(function() {
+			$('#checkbox-umum').change(function() {
 				if (this.checked) {
-					$('.patent').fadeIn();
+					$('.obat-umum').fadeIn();
 				} else {
-					$('.patent').fadeOut();
+					$('.obat-umum').fadeOut();
 				}
 			});
 
-			$('#checkbox-generic').change(function() {
+			$('#checkbox-keras').change(function() {
 				if (this.checked) {
-					$('.generic').fadeIn();
+					if (confirm('Do you have requirements for accessing hard drugs?')) {
+						$('.obat-keras').fadeIn();
+					} else {
+						this.checked = false
+					}
 				} else {
-					$('.generic').fadeOut();
+					$('.obat-keras').fadeOut();
 				}
 			});
 
-			$('#checkbox-supplement').change(function() {
+			$('#checkbox-terbatas').change(function() {
 				if (this.checked) {
-					$('.supplement').fadeIn();
+					$('.obat-terbatas').fadeIn();
 				} else {
-					$('.supplement').fadeOut();
+					$('.obat-terbatas').fadeOut();
 				}
 			});
 
-			$('#checkbox-uncategorized').change(function() {
+			$('#checkbox-suplemen').change(function() {
 				if (this.checked) {
-					$('.uncategorized').fadeIn();
+					$('.suplemen-kesehatan').fadeIn();
 				} else {
-					$('.uncategorized').fadeOut();
+					$('.suplemen-kesehatan').fadeOut();
 				}
 			});
 		});
