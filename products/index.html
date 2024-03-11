@@ -497,7 +497,7 @@
 			$("#modal-kategori").html(medicines[idx]["kategori"]);
 			$("#modal-golongan").html(medicines[idx]["golongan"]);
 			$("#modal-reg").html(medicines[idx]["reg"]);
-			$("#modal-bahan").html(medicines[idx]["bahan"]);
+			$("#modal-bahan").html(medicines[idx]["bahan"].replace(/\n/g, '<br />'));
 		});
 	</script>
 	<script>
