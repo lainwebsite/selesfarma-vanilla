@@ -457,38 +457,6 @@
 	</div>
 	<script src="../assets/js/script.js" type="text/javascript"></script>
 	<script src="../assets/js/remodal.min.js"></script>
-	<script src="../assets/js/lenis.min.js"></script>
-	<script>
-		let lenis;
-		if (Lainweb.env("editor") === undefined) {
-		lenis = new Lenis({
-			lerp: 0.1,
-			wheelMultiplier: 0.7,
-			gestureOrientation: "vertical",
-			normalizeWheel: false,
-			smoothTouch: false
-		});
-		function raf(time) {
-			lenis.raf(time);
-			requestAnimationFrame(raf);
-		}
-		requestAnimationFrame(raf);
-		}
-		$("[data-lenis-start]").on("click", function () {
-		lenis.start();
-		});
-		$("[data-lenis-stop]").on("click", function () {
-		lenis.stop();
-		});
-		$("[data-lenis-toggle]").on("click", function () {
-		$(this).toggleClass("stop-scroll");
-		if ($(this).hasClass("stop-scroll")) {
-			lenis.stop();
-		} else {
-			lenis.start();
-		}
-		});
-	</script>
 	<script>
 		$(".product-detail").on('click', function(){
 			let idx = $(this).attr("med-id") - 1;
