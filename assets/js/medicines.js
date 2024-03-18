@@ -862,16 +862,6 @@ let medicines = [
   {
     id: "87",
     golongan: "Suplemen",
-    nama: "seltrix",
-    bahan: "Glucosamine HCl  250 mg\n Condroitin sulfat 200 mg\n Methyl Sulfonyl Methane 100 mg\n Vitamin C  25 mg\n Vitamin E 25 mg mangan 1.25 mg  Magnesium 10 mg Seles\\nium  25 mcg Zinc 2.5 mg",
-    kemasan: "Dus, 5 strip @ 6 kapsul",
-    reg: "POM SD. 081 334 561",
-    kategori: "Suplemen Kesehatan",
-    gambar: "Seles Farma_Medicine Image.webp"
-  },
-  {
-    id: "88",
-    golongan: "Suplemen",
     nama: "Selviplex",
     bahan: "Vitamin A  4 mg\n Vitamin D  0.01 mg\n Vitamin B1 2 mg\n Vitamin B2 2 mg\n Vitamin B6 800 mcg\n Vitamin B12 12 mcg\n Nicotinamide 20 mg\n Ca. Pantotenate  10 mg\n Fe (II) fumate 30 mg\n Mg (Magnesium Carbonat) 87.5 mg\n Zn (Zink Sulfate) 15 mg\n Mn (Mangan Sulfate) 0.5 mg\n Cu (copper Glukonat 0.5 mg\n Fluor (Natrium Fluorida) 0.5 mg\n Iodium (kalium iodide)  0.15 mg",
     kemasan: "Dus, 10 strip @ 10 kapsul",
@@ -880,7 +870,7 @@ let medicines = [
     gambar: "Seles Farma_Selviplex_Suplemen-Kesehatan.webp"
   },
   {
-    id: "89",
+    id: "88",
     golongan: "Kombinasi Besi dan Asam Folat",
     nama: "Tablet Tambah Darah",
     bahan: "Ferro Fumarat 182.54 setara dengan Elemen Besi 60 mg\nFolic Acid 0.40 mg",
@@ -890,7 +880,7 @@ let medicines = [
     gambar: "Seles Farma_Tablet Tambah Darah_Obat-Umum.webp"
   },
   {
-    id: "90",
+    id: "89",
     golongan: "Antibiotik Non Betalaktam",
     nama: "Tetrasiklin",
     bahan: "Tetrasiklin 500 mg",
@@ -900,7 +890,7 @@ let medicines = [
     gambar: "Seles Farma_Tetracycline Hydrochloride Generic_Obat-Keras.webp"
   },
   {
-    id: "91",
+    id: "90",
     golongan: "Antibiotik Non Betalaktam",
     nama: "Thiamphenicol",
     bahan: "Thiamphenicol 500 mg",
@@ -910,7 +900,7 @@ let medicines = [
     gambar: "Seles Farma_Thiamphenicol_Obat-Keras.webp"
   },
   {
-    id: "92",
+    id: "91",
     golongan: "Suplemen",
     nama: "Vitacaps",
     bahan: "Vitamin B1 5 mg\n Vitamin B2  5 mg\n Nicotinamide  20 mg\n Asam pantothenate  10 mg\n Vitamin B6 5 mg\n Vitamin B12  7.5 mg\n Vitamin C 75 mg\n Asam folat  800 mcg\n Mn Sulfat 400 mcg \n Fe Glukonat  200 mg\n Ca Karbonat 250 mg\n Zinc  15 mg\n Sorbitol 25 mg",
@@ -920,7 +910,7 @@ let medicines = [
     gambar: "Seles Farma_Vitacaps_Suplemen-Kesehatan.webp"
   },
   {
-    id: "93",
+    id: "92",
     golongan: "Suplemen",
     nama: "Vitamin B kompleks",
     bahan: "Vitamin B1 1 mg  Vitamin B2  1.25 mg Vitamin B6 1 mg  Calcium Pantothenat 5 mg  Nikotinamide 10 mg",
@@ -930,7 +920,7 @@ let medicines = [
     gambar: "Seles Farma_Vitamin B_Suplemen-Kesehatan.webp"
   },
   {
-    id: "94",
+    id: "93",
     golongan: "Suplemen",
     nama: "Vitamin B kompleks",
     bahan: "Vitamin B1 1 mg  Vitamin B2  1.25 mg Vitamin B6 1 mg  Calcium Pantothenat 5 mg  Nikotinamide 10 mg",
@@ -940,17 +930,7 @@ let medicines = [
     gambar: "Vitamin B Kompleks.webp"
   },
   {
-    id: "95",
-    golongan: "Suplemen",
-    nama: "Vitamin B1",
-    bahan: "Vitamin B1 5 mg",
-    kemasan: "Botol plastik @ 100 tablet",
-    reg: "POM SD. 061 529 251",
-    kategori: "Suplemen Kesehatan",
-    gambar: "Seles Farma_Medicine Image.webp"
-  },
-  {
-    id: "96",
+    id: "94",
     golongan: "Suplemen",
     nama: "Vitamin C 25 mg Rasa Orange",
     bahan: "Vitamin C 25 mg",
