@@ -4971,7 +4971,7 @@ figcaption {
 .footer-list-wrapper {
   grid-column-gap: 16px;
   grid-row-gap: 18px;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto 1fr;
   grid-template-columns: 1fr;
   grid-auto-columns: 1fr;
   font-weight: 500;
