@@ -1,6 +1,6 @@
 $(document).on("submit", "#Contact-Form", function(e){
     e.preventDefault();
-    var sourcemail = "info@selesfarma.com";
+    var sourcemail = "selesfarma@yahoo.com";
     var link = "";
 
     var name = $("#input-name").val();
