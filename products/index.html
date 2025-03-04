@@ -525,10 +525,11 @@
 
 			$('#checkbox-keras').change(function() {
 				if (this.checked) {
-					if (confirm('Do you have requirements for accessing hard drugs?')) {
+					if (confirm('Apakah anda merupakan tenaga Kesehatan untuk mengakses informasi terkait Obat Keras?')) {
 						$('.obat-keras').fadeIn();
 					} else {
-						this.checked = false
+						this.checked = false;
+						window.location.href = "https://selesfarma.com";
 					}
 				} else {
 					$('.obat-keras').fadeOut();
